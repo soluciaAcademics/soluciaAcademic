@@ -1,0 +1,58 @@
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+    body
+    {
+        background-color: rgb(252, 255, 232);
+    }
+
+    #login_banner
+    {
+        opacity: 70%;
+    }
+
+    #login_page-text
+    {
+        font-size: 1.5em;
+        font-family: sans-serif;
+        font: bolder;
+        color: rgb(3, 118, 138);
+        margin-bottom: 2%;
+    }
+
+    #name, #password
+    {
+        border-radius: 5pt;
+        padding: 3pt;
+        padding-right: 3em;
+        border: 0.5px solid black;
+    }
+
+    #login-button, #signup-button
+    {
+        padding: 1em;
+        font: bolder;
+        border-radius: 1em;
+        border: 0.5px solid black;
+    }
+
+    #login-button:hover
+    {
+        background-color: rgb(42, 90, 89);
+    }
+    #signup-button:hover
+    {
+        background-color: rgb(200, 200, 200);
+    }
+
+    #login-button
+    {
+        color: white;
+        background-color: rgb(63, 130, 135);
+    }
+
+    #container
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
