@@ -2,15 +2,14 @@
     outline: 1px solid green;
 }
 */
-a
-{
+a {
     font-family: sans-serif;
 }
 
-#header
-{
+#header {
     display: block
 }
+
 .sidenav {
     height: 100%;
     /* 100% Full-height */
@@ -33,12 +32,13 @@ a
     transition: 0.5s;
     /* 0.5 second transition effect to slide in the sidenav */
 }
-        #sidebar_button
-        {
-            text-align: right;
-            padding: 0;
-            background-color: red;
-        }
+
+#sidebar_button {
+    text-align: right;
+    padding: 0;
+    background-color: red;
+}
+
 /* The navigation menu links */
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -56,7 +56,7 @@ a
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-    outline:1px solid green;
+
     position: absolute;
     top: 700px;
     right: 25px;
@@ -67,7 +67,7 @@ a
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-        transition: margin-left .5s;
+    transition: margin-left .5s;
     padding: 20px;
 }
 
@@ -81,17 +81,15 @@ a
         font-size: 18px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 480px)
-{
-    body
-    {
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    body {
         background-color: #FFFBF2;
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    #title
-    {
+    #title {
         color: white;
         font-family: sans-serif;
         font-weight: bolder;
@@ -104,90 +102,88 @@ a
         height: 5%;
         font-size: 24px;
     }
-    #section-title
-    {
+
+    #section-title {
         color: black;
         font-family: sans-serif;
         font-weight: bolder;
         text-align: center;
     }
 
-        #section-test1,
-        #section-test2 {
-            display: grid;
-            flex-direction: row;
-            padding: 2%;
-            color: black;
-            background-color: #9FD6DE;
-            font-family: sans-serif;
-            border-radius: 10px;
-        }
-        #button-thumbs
-        {
-            border-radius: 10px;
-        }
+    #section-test1,
+    #section-test2 {
+        display: grid;
+        flex-direction: row;
+        padding: 2%;
+        color: black;
+        background-color: #9FD6DE;
+        font-family: sans-serif;
+        border-radius: 10px;
+    }
 
-        #section-text {
-            padding: auto;
-            font-size: 16px;
-            text-align: end;
-    
-        }
-    #section-test1:hover{
+    #button-thumbs {
+        border-radius: 10px;
+    }
+
+    #section-text {
+        padding: auto;
+        font-size: 16px;
+        text-align: end;
+
+    }
+
+    #section-test1:hover {
         background-color: #608388;
         color: White;
     }
 
-        /* Place the navbar at the bottom of the page, and make it stick */
-        .navbar {
-            display: flex;
-            justify-content: center;
-            background-color: #fff8f2;
-            overflow: hidden;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            margin-left: -5%;
-            border-top: 5px solid #2EAEC0;
-        }
-    
-        /* Style the links inside the navigation bar */
-        .navbar a {
-            display: block;
-            color: #2EAEC0;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            font-weight: bolder;
-            font-family: sans-serif;
-        }
-    
-        /* Change the color of links on hover */
-        .navbar a:hover {
-            background-color: #2EAEC0;
-            color: white;
-        }
-    
-        /* Add a color to the active/current link */
-        .navbar a.active {
-            background-color: #2EAEC0;
-            color: white;
-        }
+    /* Place the navbar at the bottom of the page, and make it stick */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #fff8f2;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-left: -5%;
+        border-top: 5px solid #2EAEC0;
+    }
 
-        #logo-clickable:hover
-        {
-            background-image: url("Images/logo4.jpg");
-        }
+    /* Style the links inside the navigation bar */
+    .navbar a {
+        display: block;
+        color: #2EAEC0;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
 
-        #space
-        {
-            padding: 5%;
-        }
+    /* Change the color of links on hover */
+    .navbar a:hover {
+        background-color: #2EAEC0;
+        color: white;
+    }
 
-        #inDev
-        {
-            opacity: 25%;
-        }
+    /* Add a color to the active/current link */
+    .navbar a.active {
+        background-color: #2EAEC0;
+        color: white;
+    }
+
+    #logo-clickable:hover {
+        background-image: url("Images/logo4.jpg");
+    }
+
+    #space {
+        padding: 5%;
+    }
+
+    #inDev {
+        opacity: 25%;
+    }
 
 }
