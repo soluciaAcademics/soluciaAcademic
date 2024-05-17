@@ -94,7 +94,7 @@ a {
 
     iframe 
     {
-        display: block;
+        display: flex;
     }
 
     /* Place the navbar at the bottom of the page, and make it stick */
