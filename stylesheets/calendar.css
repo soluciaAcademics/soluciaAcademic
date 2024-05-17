@@ -92,6 +92,11 @@ a {
         font-size: 24px;
     }
 
+    iframe
+    {
+        display: block;
+    }
+
     /* Place the navbar at the bottom of the page, and make it stick */
     .navbar {
         display: flex;
@@ -140,6 +145,4 @@ a {
     #inDev {
         opacity: 25%;
     }
-
-
 }
