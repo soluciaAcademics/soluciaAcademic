@@ -92,10 +92,9 @@ a {
         font-size: 24px;
     }
 
-    iframe {
+    iframe 
+    {
         display: block;
-        margin-left: 5%;
-        margin-right: 5%;
     }
 
     /* Place the navbar at the bottom of the page, and make it stick */
@@ -146,6 +145,4 @@ a {
     #inDev {
         opacity: 25%;
     }
-
-
 }
