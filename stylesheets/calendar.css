@@ -71,7 +71,7 @@ a {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
     body {
         background-color: #FFFBF2;
         margin-left: 5%;
