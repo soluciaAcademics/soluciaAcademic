@@ -77,15 +77,13 @@
     }
 
     footer {
-        background-color: #2EAEC0;
-        color: white;
-        border-radius: 100px;
+        color: black;
         margin-left: 5%;
         margin-right: 5%;
         text-align: center;
         padding: 1%;
         font-family: sans-serif;
-        font-weight: lighter;
+        font-weight: light;
         font-style: italic;
     }
 
