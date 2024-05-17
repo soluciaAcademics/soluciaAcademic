@@ -47,7 +47,7 @@ a {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
-    bottom: 10%;
+    bottom: 1%;
     left: -25px;
     font-size: 36px;
     margin-left: 50px;
