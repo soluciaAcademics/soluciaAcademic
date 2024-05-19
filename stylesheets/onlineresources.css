@@ -90,9 +90,9 @@ a {
 
     #title {
         color: white;
-        font-family: sans-serif;
+        font-family: "Josefin Sans";
         font-weight: bolder;
-        background-color: #2EAEC0;
+        background-color: #2ca7b7;
         margin-left: -5.5%;
         margin-right: -5.5%;
         margin-top: -2%;
@@ -100,24 +100,27 @@ a {
         text-align: center;
         height: 5%;
         font-size: 24px;
+        box-shadow: -1px 1px 25px #208b99;
     }
 
     #section-title {
         color: black;
-        font-family: sans-serif;
+        font-family: "Josefin Sans";
         font-weight: bolder;
         text-align: center;
     }
 
     #section-test1,
     #section-test2 {
-        display: grid;
-        flex-direction: row;
-        padding: 2%;
-        color: black;
-        background-color: #9FD6DE;
-        font-family: sans-serif;
-        border-radius: 10px;
+            border-style: outset;
+            display: grid;
+            flex-direction: row;
+            padding: 2%;
+            color: black;
+            background-color: #9FD6DE;
+            font-family: sans-serif;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px #849da0;
     }
 
     #button-thumbs {

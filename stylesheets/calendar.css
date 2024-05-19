@@ -79,23 +79,25 @@ a {
     }
 
     #title {
-        color: white;
-        font-family: sans-serif;
-        font-weight: bolder;
-        background-color: #2EAEC0;
-        margin-left: -5.5%;
-        margin-right: -5.5%;
-        margin-top: -2%;
-        padding-top: 10%;
-        text-align: center;
-        height: 5%;
-        font-size: 24px;
+            color: white;
+            font-family: "Josefin Sans";
+            font-weight: bolder;
+            background-color: #2ca7b7;
+            margin-left: -5.5%;
+            margin-right: -5.5%;
+            margin-top: -2%;
+            padding-top: 10%;
+            text-align: center;
+            height: 5%;
+            font-size: 24px;
+            box-shadow: -1px 1px 25px #208b99;
     }
 
     iframe {
         display: block;
         margin-left: 5%;
         margin-right: 5%;
+        box-shadow: 10px 10px 10px #77a4aa;
     }
 
     /* Place the navbar at the bottom of the page, and make it stick */
